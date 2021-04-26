@@ -3,7 +3,7 @@ import nlp
 ELI5 = nlp.load_dataset('eli5')
 WIKI40B_SNIPPETS = nlp.load_dataset('wiki_snippets', name='wiki40b_en_100_0')['train']
 SAVED_RETRIEVER = "retriever_models/eli5_retriever_model_l-8_h-768_b-512-512"
-SAVED_INDEX = "wiki_index/wiki40b_passages_reps_32_l-8_h-768_b-512-512.dat"
+SAVED_REPRESENTATIONS = "wiki_index/wiki40b_passages_reps_32_l-8_h-768_b-512-512.dat"
 
 
 class ArgumentsQAR():
