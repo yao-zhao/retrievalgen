@@ -1,2 +1,5 @@
+__pycache__
 retriever_models
 wiki_index
+*.run
+output
